@@ -139,7 +139,7 @@ fi
 
 # Clone the repository
 echo -e "\e[33mCloning Levanter repository...\e[0m"
-if ! git clone https://github.com/lyfe00011/levanter.git "$BOT_NAME"; then
+if ! git clone https://github.com/GiftMsongori/levanter.git "$BOT_NAME"; then
     echo -e "\e[31mFailed to clone repository.\e[0m"
     exit 1
 fi
